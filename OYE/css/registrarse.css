@@ -1,0 +1,40 @@
+.input-picker .ws-button-row{
+	/*display: none !important;*/
+}
+
+.input-picker :focus {
+
+    outline: none !important;
+
+}
+
+.input-group{
+	margin-bottom: 5px;
+}
+
+.input-group-addon{
+	color: #333;
+	background-color: #fff;
+	border-radius: 0px;
+	min-width: 38px;
+	border: 1px solid #333;
+	padding: 0px;
+}
+
+.input-group .form-control {
+	border-radius: 0px;
+	padding: 6px 12px;
+}
+
+.form-control:focus{
+	border-color: #444;
+}
+
+.ws-popover-opener{
+	background: none;
+}
+
+.cbp-mc-form input:focus{
+	outline: none;
+	box-shadow: 0 0 3px #333;
+}

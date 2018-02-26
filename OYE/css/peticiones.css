@@ -1,0 +1,116 @@
+ul{
+	list-style-type: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:hover span{
+	opacity: 0.9;
+}
+
+.menu ul li{
+    display:inline;
+    width: 50%;
+    float: left;
+}
+
+.menutr ul li{
+    display:inline;
+    float: none;
+}
+
+.menu ul li div{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.menutr ul li div{
+	display: block;
+	margin: 0 385px;
+	margin-top: 50px;
+	width: 25%;
+}
+
+.menu ul li img{
+	width: 60px;
+	margin: 10px auto;
+	padding-top: 0px;
+}
+
+.menu ul li span{
+	text-align: center;
+	display: block;
+	/*width: 45%;*/
+	margin: 0 auto;
+	padding: 10px 15px;
+	background-color: #333;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.lista{
+	display: block;
+	position: relative;
+	clear: both;
+	padding-top: 50px;
+}
+
+.lista span{
+	text-transform: uppercase;
+}
+
+.lista span.Aceptada{
+	color: #7cb342;
+}
+
+.lista span.Rechazada{
+	color: #f44336;
+}
+
+#tabla form{
+	margin-left: 10px;
+}
+
+#tabla .estado{
+	text-align: center;
+}
+
+#tabla .modif img{
+	background-repeat: no-repeat;
+	border: 0;
+    display: inline-block;
+    width: 20px;
+    padding: 0px;
+    margin-top: -3.5px;
+    
+}
+
+#tabla input.elimi{
+	background: url(../img/icons/eliminar.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	border: 0;
+    display: inline-block;
+    width: 25px;
+    padding: 0px;
+
+}
+
+.petieli{
+	margin: 10px auto;
+	text-align: center;
+	width: 50%;
+}
+
+td.nop{
+	text-align: center;
+}
+
+td.nop span{
+	margin: 0 auto;
+	display: block;
+}
+

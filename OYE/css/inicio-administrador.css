@@ -1,0 +1,219 @@
+* {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+.navbar-administrador {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+.navbar-administrador li:first-child {
+    background-color: #333;
+    padding: 5px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+.navbar-administrador li {
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    transition: .5s ease;
+}
+.navbar-administrador li:hover {
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+    transition: .5s ease;
+}
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    line-height: 80px;
+    text-align: center;
+    border: 3px solid #fff;
+}
+.circle:hover {
+    opacity: 0.90;
+}
+.circle>a {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+}
+.circle>a:hover {
+    background-color: #333 !important;
+    text-decoration: none;
+}
+.navbar-administrador li a {
+    color: #fff;
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    min-height: 96px;
+}
+.image {
+    display: block;
+    width: 70%;
+    height: auto;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+}
+
+.contenedor:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* H1 Administrador*/
+
+#header{
+	text-align: center;
+}
+
+#header h1:before, 
+#header h1:after{
+	content: "";
+	display: inline-block;
+	width: 10%;
+	height: 3px;
+	background-color: #333;
+	margin: 7px 25px;
+} 
+
+/* PANELES */
+
+.panel {
+    border: 2px solid #333;
+}
+.panel-heading {
+    border-bottom: 2px solid #333;
+}
+.panel, .panel-heading {
+    border-radius: 0px;
+}
+.panel-heading h3 {
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
+    font-weight: 700;
+    text-align: center;
+}
+.panel-default {
+    border-color: #333;
+}
+.panel-body {
+    padding: 0px;
+}
+div.izq, div.cen, div.dec {
+    width: 33%;
+    float: left;
+    padding: 0px 5px;
+}
+div.izq .panel-heading {
+    background-color: #0099DD;
+    color: #fff;
+    border-color: #333;
+}
+div.cen .panel-heading {
+    background-color: #F2B809;
+    color: #fff;
+    border-color: #333;
+}
+div.dec .panel-heading {
+    background-color: #F37402;
+    color: #fff;
+    border-color: #333;
+}
+
+table {
+    margin-bottom: 0px !important;
+}
+
+.table>tbody>tr>th {
+    border-bottom: 1px solid #333;
+}
+
+table th {
+    padding-left: 17px !important;
+    /*text-align         : center;*/
+}
+
+table td {
+    padding: 10px 10px !important;
+    vertical-align: middle !important;
+    display: table-cell;
+}
+table td.tipo {
+    text-align: center;
+}
+table td.tipo img {
+    width: 50px;
+}
+table td.titulo {
+    word-break: keep-all;
+    padding: 10px 10px !important;
+}
+/*.dec table td.titulo a{
+			vertical-align       : middle;
+			}*/
+
+table a {
+    color: #333;
+}
+table a:hover {
+    font-weight: 500;
+    color: #333;
+    text-decoration-style: all;
+}
+
+table td.fecha a.button {
+    background-color: #0099DD;
+    color: #fff;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    font-size: 12px;
+    margin-top: 11px;
+}
+table td.duracion a>span {
+    background-color: #F37402;
+    color: #fff;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #333;
+    border-radius: 0px;
+    font-size: 12px;
+    margin-top: 11px;
+}

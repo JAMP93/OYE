@@ -1,0 +1,62 @@
+#pie {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    border-top: 1px solid #222;
+    font-family: 'Julius Sans One';
+    color: #fff;
+    margin-top: 2%;
+}
+
+#pie div.logo a{
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#pie a:visited, a:focus{
+    color: #fff;
+    text-decoration: none;
+}
+
+#pie a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.caja1{
+    width: 33%;
+    float: left;
+    padding-left: 13%;
+    padding-top: 40px;
+}
+
+.caja2{
+    width: 66%;
+    float: left;
+    padding-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#pie div.centro{
+    text-align: left;
+}   
+
+#pie div.derecha{
+    text-align: left;
+}      

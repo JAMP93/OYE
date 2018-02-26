@@ -1,0 +1,462 @@
+#contenido{
+	font-family: Lato;
+	color: #333;
+	margin-top: -35px;
+}
+
+/*.container{
+	background-color: transparent;
+}*/
+
+.imagen{
+	display: inline-block;
+	width: 100%;
+}
+
+.imagen img{
+	display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 400px;
+	
+}
+
+.cabecera{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 0;
+	padding-bottom: 0px;
+}
+
+.cabecera h1{
+	font-size: 27px;
+	font-weight: 700;
+	text-align: left;
+	padding: 30px 10px 0px 30px;
+	margin: 0px;
+	display: block;
+	min-height: 125px;
+	max-height: 125px;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+.titulo{
+	display: block;
+	width: 45%;
+	float: left;
+}
+
+.datos{
+	display: block;
+	width: 45%;
+	float: right;
+	padding: 20px 0;
+}
+
+div.datostr{
+	margin-right: 55px;
+}
+
+.datos ul li{
+	font-weight: 700;
+	padding: 10px 0px;
+}
+
+.datos ul li span{
+	font-weight: 400;
+}
+
+.datos ul li p{
+	margin: 0;
+}
+
+.datos ul li p>img{
+	display: inline-flex;
+	max-width: 35px;
+	margin: -12px 5px;
+}
+
+ul.ultr{
+	padding-left: 10px;
+	min-height: 115px;
+	margin-right: 34px;
+}
+
+ul.ultr li {
+	white-space: nowrap;
+}
+
+.ultr{
+	display: inline-block;
+	width: 49.5%;
+	padding: 10px 0;
+}
+
+.ultr a{
+	color: #333;
+	text-decoration: none;
+}
+
+.ultr a:hover{
+	color: #666;
+	font-style: italic;
+}
+
+.ultr a:visited{
+	text-decoration: underline;
+}
+
+.descripcion{
+	display: inline-block;
+	width: 100%;
+	padding: 7px 14px;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+	margin-bottom: 125px;
+}
+
+.descripcion > p:first-child::first-letter{
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.descripcion h6{
+	width: 85px;
+	margin-top: -17px;
+	margin-left: 10px;
+	background-color: white;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+div.tit{
+	top: -40px;
+	position: relative;
+}
+
+div.tit{
+	text-align: center;
+}
+
+div.tit h2{
+	padding-left: 0px;
+	display: inline-block;
+	padding-top: 25px;
+}
+
+div.tit h2:after{
+	content: "";
+	display: block;
+	width: 90%;
+	height: 3px;
+	background-color: #333;
+	margin: 5px auto;
+}
+
+/* Acciones */
+
+.acciones{
+	font-family: 'Lato' !important;
+	padding: 7px 14px;
+	border-top: 1px solid #333;
+	width: 100%;
+	margin: 20px 0px;
+	margin-top: 0px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.acciones form > div.caja{
+	float: left;
+	width: 50%;
+}
+
+.acciones form > div.caja2{
+	float: right;
+	width: 50%;
+	background-color: white;
+}
+
+div.acciones h6{
+	width: 83px;
+	margin-top: -30px;
+	margin-left: 0px;
+	background-color: white;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+#contenido .container {
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 4em 3.125em 6em;
+}
+
+.add img{
+	width: 35px;
+	display: block;
+	margin: 0 auto;
+}
+
+.concheck {
+	display            : inline-block;
+	position           : relative;
+	padding-left       : 35px;
+	margin-bottom      : 12px;
+	cursor             : pointer;
+	font-size          : 18px;
+	-webkit-user-select: none;
+	-moz-user-select   : none;
+	-ms-user-select    : none;
+	user-select        : none;
+	line-height        : 19px;
+	margin-top         : 8px;
+	padding-right      : 20px;
+	font-weight: 700;
+}
+
+.concheck input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.concheck:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.concheck input.acep:checked ~ .checkmark {
+  background-color: #7CB342;
+}
+
+.concheck input.rech:checked ~ .checkmark {
+  background-color: #F44336;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.concheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.concheck .checkmark:after {
+  	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+  	background: white;
+}
+
+/*En trabajos*/
+
+.checklabel {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	line-height: 35px;
+}
+
+.checklabel input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkspan {
+	font-family: FontAwesome;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+
+.checklabel:hover input ~ .checkspan {
+    background-color: #f0f0f0;
+}
+
+.checklabel input:checked ~ .checkspan {
+    background-color: #333;
+}
+
+.checkspan:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checklabel input:checked ~ .checkspan:after {
+    display: block;
+    content: "\f00c";
+    color: white;
+	left: 2px;
+	top: -11px;
+	font-size: 8px;
+}
+
+.checklabel .checkspan:after {
+    width: 5px;
+    height: 10px;
+}
+
+/*-----------*/
+
+.acciones form input[type="submit"]{
+	font-family: 'Lato' !important;
+	margin: 27px 0px;
+    margin-right: 0px;
+	width: 120px;
+	margin-right: 10px;
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+
+.acciones form button{
+	font-family: 'Lato' !important;
+	margin: 27px 0px;
+    margin-right: 0px;
+	width: 120px;
+	margin-right: 10px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	background-color: #F44336;
+	color: #fff;
+}
+
+.acciones form input[name="confirmar"]{
+	background-color: #0099cc;
+	color: #fff;
+}
+
+.acciones form input[name="eliminar"]{
+	background-color: #F44336;
+	color: #fff;
+}
+
+.acciones form input[type="submit"]:hover, .acciones form button:hover{
+	opacity: 0.8;
+	color: #fff;
+}
+
+.collapse {
+	padding-top: 100px;
+}
+
+div#navbar .collapse {
+	padding-top: 0px;
+}
+
+.derecha div.collapse{
+	border-top: 1px solid #333;
+	padding-top: 10px;
+	margin-top: 25px;
+}
+
+.detalles textarea, .mensaje textarea{
+	resize     : none;
+	width      : 70%;	
+	/*height     : 100px;*/	
+	border     : 2px solid #444;	
+	padding    : 7px 10px;	
+	font-family: Lato;	
+	margin     : 0 auto;	
+	display    : block;	
+	line-height: 15px;	
+	font-size  : 13px;
+}
+
+.alert{
+	border-radius: 0px;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	font-size: 15px;
+	padding: 15px;
+}
+
+#alert .alert{
+	border-radius: 0px;
+	margin-bottom: 25px;
+	margin-top: 10;
+	font-size: 15px;
+	padding: 15px;
+}
+
+.derecha a{
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+
+.derecha a:hover img{
+	opacity: 0.8;
+}
+
+.derecha a > span{
+	margin-top: 5px;
+}
+
+.derecha .collapse div{
+	width: 100%;
+}
+
+.derecha form input[type="submit"]{
+	background-color: #0099cc;
+	color: #fff;
+	font-family: 'Lato' !important;
+	margin: 85px;
+	width: 120px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	border: 0px;
+	padding: 5px 7px;
+}
+
+.derecha form input[name="quitar"]{
+	background-color: #F44336;
+}
+
+.acc{
+	font-family: 'Lato' !important;
+	padding: 7px 14px;
+	margin: 20px 0px;
+	margin-top: 0px;
+	padding: 20px;
+	padding-top: 0px;
+	display: inline-block;
+	width: 49%;
+}
+
+
+
+

@@ -1,0 +1,8 @@
+.navbar{
+    position: relative;
+    min-height: 150px;
+}
+
+.nav{
+    max-height: 150px;
+}
